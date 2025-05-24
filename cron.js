@@ -1,19 +1,21 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
   const animeId = params.get("id");
-  const episodeS = parseInt(params.get("ep") || "1");
-
-  const PlayerVid = document.getElementById("PlayerVid");
+  const AnimeImg = document.getElementById("Anme");
   const Title = document.getElementById("Animetlt");
-  const epsBtnContainer = document.getElementById("esp");
+  const genRs = document.getElementById("gnrs");
+  const epsBtnContainer = document.querySelector(".epsbtn");
   const bacK = document.getElementById("return");
+  const des = document.querySelector(".cont-des");
   const PlaY = document.getElementById("skfh");
+  let DeFault = 1;
 
-  if (!animeId) return;
+  if (!animeId) {
+    console.error("No anime ID provided in URL.");
+    return;
+  }
 
-  PlayerVid.src = `https://vidsrc.cc/v2/embed/anime/ani${animeId}/${episodeS}/sub?autoPlay=true`;
-
-  bacK.addEventListener('click', () => window.location.href = `/next_page/next.html?id=${animeId}`);
+  bacK.addEventListener('click', () => window.location.href = "index.html");
 
   const query = `
     query ($id: Int) {
@@ -23,7 +25,13 @@ document.addEventListener("DOMContentLoaded", async () => {
           romaji
           english
         }
+        coverImage {
+          large
+        }
+        description
         episodes
+        averageScore
+        genres
       }
     }
   `;
@@ -43,31 +51,45 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     const data = await response.json();
     const anime = data.data.Media;
-    if (!anime) return;
 
+    if (!anime) {
+      console.error("Anime not found.");
+      return;
+    }
+
+    AnimeImg.src = anime.coverImage.large;
     Title.textContent = anime.title.english || anime.title.romaji;
+
     document.title = `Reikanime: ${Title.textContent}`;
+
+    genRs.textContent = "Genres: " + (anime.genres || []).join(", ");
+
+    const se = document.createElement("p");
+    se.textContent = anime.description
+    .replace(/<[^>]*>/g, "")
+    .replace(/\(Source:.*?\)/g, "")
+    .trim();
+
+    des.appendChild(se);
+
     const TotalEpisode = anime.episodes || 0;
 
-    if (!TotalEpisode) {
+    if(anime.episodes == null) {
       const nope = document.createElement("p");
       nope.textContent = "Still not released";
       nope.style.fontSize = "2rem";
       nope.style.color = "red";
+
       epsBtnContainer.appendChild(nope);
     }
 
-    for (let i = 1; i <= TotalEpisode; i++) {
+    for(let i = 1; i <= TotalEpisode; i++){
       const BtnTo = document.createElement("button");
       BtnTo.textContent = i;
-      if (i === episodeS) {
-        BtnTo.style.backgroundColor = "rgba(226, 107, 9, 0.952)";
-        BtnTo.style.color = "white";
-      }
       BtnTo.addEventListener('click', () => {
-        window.location.href = `/player/play.html?id=${animeId}&ep=${i}`;
+        window.location.href = `play.html?id=${animeId}&ep=${i}`;
       });
-      epsBtnContainer.appendChild(BtnTo);
+      epsBtnContainer.appendChild(BtnTo)
     }
 
     if (TotalEpisode > 40) {
@@ -75,27 +97,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   epsBtnContainer.style.maxHeight = "20rem"; 
 }
 
-    window.addEventListener('message', (event) => {
-        console.log('Received message:', event);
 
-      if (event.origin !== 'https://vidsrc.cc') return;
-      if (event.data && event.data.type === 'PLAYER_EVENT') {
-        const { event: eventType } = event.data.data;
-        console.log('Player event type:', eventType);
-        if (eventType === 'complete') {
-          const nextEp = episodeS + 1;
-          if (nextEp <= TotalEpisode) {
-            window.location.href = `/player/play.html?id=${animeId}&ep=${nextEp}`;
-          }
-        }
-      }
-    });
-
-    PlaY.addEventListener('click', () => {
-      window.location.href = `/player/play.html?id=${animeId}&ep=1`;
-    });
 
   } catch (error) {
     console.error("Error fetching anime by ID:", error);
   }
+
+  PlaY.addEventListener('click', () => {
+    window.location.href = `play.html?id=${animeId}&ep=${DeFault}`;
+  })
 });

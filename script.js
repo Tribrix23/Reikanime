@@ -90,14 +90,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById(btnId);
     if (btn) {
       btn.addEventListener("click", () => {
-        window.location.href = `/morepage/mb.html?genre=${encodeURIComponent(genre)}`;
+        window.location.href = `mb.html?genre=${encodeURIComponent(genre)}`;
       });
     }
   });
 
   const bckBtn = document.getElementById("bckBtn");
   if (bckBtn) {
-    bckBtn.addEventListener("click", () => window.location.href = "/index.html");
+    bckBtn.addEventListener("click", () => window.location.href = "index.html");
   }
 
   const params = new URLSearchParams(window.location.search);
@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (card && !card.classList.contains("spinner-card")) {
       const animeId = card.getAttribute("id");
       if (animeId) {
-        window.location.href = `/next_page/next.html?id=${animeId}`;
+        window.location.href = `next.html?id=${animeId}`;
       }
     }
   });
@@ -251,7 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const card = e.target.closest(".anime");
     if (card) {
       const sH = card.getAttribute("id");
-      window.location.href = `/next_page/next.html?id=${sH}`;
+      window.location.href = `next.html?id=${sH}`;
     }
   });
 });
