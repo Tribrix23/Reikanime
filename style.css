@@ -377,10 +377,6 @@ main:hover {
         width: 6rem;
         height: 8rem;
     }
-
-    main{
-        margin-bottom: 4rem;
-    }
     
     .top img {
         width: 1rem;
@@ -395,11 +391,11 @@ main:hover {
     }
 
     .anm-cont{
-      width: 16rem;
+      width: 22.5rem;
     }
 
     .anime-panels .top {
-      width: 16rem;
+      width: 21.2rem;
     }
 
     .search-results {
