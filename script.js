@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById(btnId);
     if (btn) {
       btn.addEventListener("click", () => {
-        window.location.href = `/morepage/mb.html?genre=${encodeURIComponent(genre)}`;
+        window.location.href = `morepage/mb.html?genre=${encodeURIComponent(genre)}`;
       });
     }
   });
@@ -239,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (card && !card.classList.contains("spinner-card")) {
       const animeId = card.getAttribute("id");
       if (animeId) {
-        window.location.href = `/next_page/next.html?id=${animeId}`;
+        window.location.href = `next_page/next.html?id=${animeId}`;
       }
     }
   });
