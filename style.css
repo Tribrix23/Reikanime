@@ -1,0 +1,404 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(32, 29, 29);
+    flex-direction: column;
+    overflow-y: hidden;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: rgba(226, 107, 9, 0.952);
+}
+
+header img {
+    width: 10rem;
+    margin: .5rem;
+}
+
+header input {
+    width: 15rem;
+    height: 2.3rem;
+    position: fixed;
+    right: 4rem;
+    padding-left: .5rem;
+    border: none;
+    border-radius: 1rem;
+    top: 1rem;
+    font-weight: 600;
+}
+
+main{
+    width: 65rem;
+    overflow-y: auto;
+    height: calc(100vh - 3rem);
+    overflow-x: hidden;
+}
+
+main{
+  scrollbar-width: none;
+  scrollbar-color: white transparent;
+}
+
+main:hover {
+  scrollbar-width: thin;
+  scrollbar-color: white transparent;
+}
+
+.anime-panels {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 3rem;
+    top: 4rem;
+    cursor: default;
+}
+
+.anime-panels .top {
+    color: white;
+    font-size: .5rem;
+    background-color: rgba(226, 107, 9, 0.952);
+    padding: .3rem;
+    padding-left: 1rem;
+    width: 57rem;
+}
+
+.top {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+
+.top img {
+    width: 1.3rem;
+    cursor: pointer;
+    transition: .15s ease-in;
+}
+
+.top img:hover {
+    transition: .15s ease-out;
+    scale: 1.5;
+    z-index: 10;
+}
+
+.anm-cont {
+    position: relative;
+    display: flex;
+    overflow-x: auto;
+    height: 15rem;
+    background-color: rgb(70, 69, 69);
+    margin-bottom: 4rem;
+    width: 58.34rem;
+    overflow-y: hidden;
+    flex-direction: row;
+    border-bottom-left-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+}
+
+.anm-cont {
+  scrollbar-width: none;
+  scrollbar-color: white transparent;
+}
+
+.anm-cont:hover {
+  scrollbar-width: thin;
+  scrollbar-color: white transparent;
+}
+
+.anime {
+    flex-direction: column;
+    display: inline-block;
+    width: 12rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 15rem;
+    color: white;
+    font-weight: 500;
+}
+
+.anime img {
+    background-size: cover;
+    background-color: white;
+    border-radius: .6rem;
+    width: 10rem;
+    height: 12rem;
+    color: black;
+    display: flex;
+    margin: 1rem;
+    margin-bottom: .5rem;
+}
+
+.anime:hover {
+    background-color: rgba(99, 98, 98, 0.15);
+    cursor: pointer;
+}
+
+.jj{
+    display: flex;
+}
+
+.popular{
+    background-color: rgba(226, 107, 9, 0.952);
+    width: 2rem;
+    display: flex;
+    height: 33rem;
+    width: 20rem;
+    margin-top: 1rem;
+    align-items:  center;
+    flex-direction: column;
+}
+
+.popular h1{
+    margin-top: 1rem;
+    color: white;
+}
+
+.imgS{
+    height: 10rem;
+    width: 8rem;
+    background-color: red;
+    top: 3rem;
+    position: relative;
+    margin-bottom: 5rem;
+}
+
+.popular p{
+    position: relative;
+    color: white;
+    font-size: 1.1rem;
+}
+
+.search-results {
+  transition: max-height 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  border-radius: 4px;
+  font-size: 14px;
+  right: 5.5rem;
+  width: 5rem;
+  top: 3.4rem;
+}
+
+.search-results .anime-result {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.search-results .anime-result:last-child {
+  border-bottom: none;
+}
+
+.search-results .anime-result img {
+  width: 40px;
+  height: 56px;
+  object-fit: cover;
+  margin-right: 8px;
+  border-radius: 2px;
+}
+
+.search-results .anime-result:hover {
+  background-color: #f0f0f0;
+}
+
+.search-results{
+  scrollbar-width: none;
+  scrollbar-color: white transparent;
+  margin-left: 2.5rem;
+}
+
+.search-results:hover {
+  scrollbar-width: thin;
+  scrollbar-color: white transparent;
+}
+
+
+@media (max-width: 1200px) {
+    .jj {
+        flex-direction: column;
+    }
+    
+    main {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .popular {
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+    }
+    
+    .anime-panels {
+        left: 1rem;
+    }
+    
+    .anime-panels .top,
+    .anm-cont {
+        width: calc(100% - 2rem);
+    }
+
+      .anm-cont{
+      width: 61rem;
+    }
+
+    .anime-panels .top {
+      width: 59.7rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+        text-align: center;
+    }
+    
+    header input {
+        position: static;
+        margin: 1rem auto;
+        width: 80%;
+    }
+    
+    .anime {
+        width: 10rem;
+    }
+    
+    .anime img {
+        width: 8rem;
+        height: 10rem;
+    }
+    
+    .search-results {
+        width: 80%;
+        left: 10%;
+        right: auto;
+    }
+
+        .anm-cont{
+      width: 46rem;
+    }
+
+    .anime-panels .top {
+      width: 44.7rem;
+    }
+
+    .search-results {
+      top: 8.9rem;
+    }
+}
+
+@media (max-width: 425px) {
+    .anime {
+        width: 8rem;
+    }
+    
+    .anime img {
+        width: 6rem;
+        height: 8rem;
+    }
+    
+    .top img {
+        width: 1rem;
+    }
+    
+    .popular h1 {
+        font-size: 1rem;
+    }
+    
+    .popular p {
+        font-size: 0.9rem;
+    }
+
+    .anm-cont{
+      width: 24.8rem;
+    }
+
+    .anime-panels .top {
+      width: 23.5rem;
+    }
+
+    .search-results {
+      top: 9rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .anime {
+        width: 8rem;
+    }
+    
+    .anime img {
+        width: 6rem;
+        height: 8rem;
+    }
+    
+    .top img {
+        width: 1rem;
+    }
+    
+    .popular h1 {
+        font-size: 1rem;
+    }
+    
+    .popular p {
+        font-size: 0.9rem;
+    }
+
+    .anm-cont{
+      width: 21.7rem;
+    }
+
+    .anime-panels .top {
+      width: 20.4rem;
+    }
+
+    .search-results {
+      top: 9rem;
+    }
+}
+
+@media (max-width: 320px) {
+    .anime {
+        width: 8rem;
+    }
+    
+    .anime img {
+        width: 6rem;
+        height: 8rem;
+    }
+    
+    .top img {
+        width: 1rem;
+    }
+    
+    .popular h1 {
+        font-size: 1rem;
+    }
+    
+    .popular p {
+        font-size: 0.9rem;
+    }
+
+    .anm-cont{
+      width: 18rem;
+    }
+
+    .anime-panels .top {
+      width: 16.7rem;
+    }
+
+    .search-results {
+      top: 9rem;
+    }
+}
