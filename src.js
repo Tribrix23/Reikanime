@@ -74,7 +74,7 @@ function renderSearchResults(animes) {
     `;
 
     div.addEventListener("click", () => {
-      window.location.href = `/next_page/next.html?id=${anime.id}`;
+      window.location.href = `./next_page/next.html?id=${anime.id}`;
     });
 
     searchResults.appendChild(div);
