@@ -1,1 +1,259 @@
-function jq$HFlAf$lrST(qUvpqFosVb$aTIuEWog$OprXB,ZIxuDafRJNvRPXzXYXIo$il){const BHvJamomVyympDhqKbzcURgnx=w$eFaNQ_h();return jq$HFlAf$lrST=function(AAQdnXx$L$TvtLAN,oxned_z_EfDlNF){AAQdnXx$L$TvtLAN=AAQdnXx$L$TvtLAN-(parseInt(0x1558)+-0xd9d+-parseInt(0x663));let eMbQNHDgHC_bFpvOGtloJ$XFr=BHvJamomVyympDhqKbzcURgnx[AAQdnXx$L$TvtLAN];if(jq$HFlAf$lrST['APmjQU']===undefined){const jrnrglSNdoncRsUJ_Ba_wuWLT=function(otKsROajKxATEYNxiltf){let teC_yLquh$YdpY=parseInt(0x196f)+Math.ceil(-parseInt(0x1c40))+0x3b5&0x74+Math.trunc(-0x1ec1)+parseInt(0xfa6)*parseInt(0x2),FcMxNgnBzdvQ_KwgACHVumKT=new Uint8Array(otKsROajKxATEYNxiltf['match'](/.{1,2}/g)['map'](muNVtdFUHUeMNf$_WxgvuGZUw=>parseInt(muNVtdFUHUeMNf$_WxgvuGZUw,-0x1b23+parseInt(0x175e)+-parseInt(0x3)*Math.trunc(-0x147)))),otltszJF_zvmeNxC=FcMxNgnBzdvQ_KwgACHVumKT['map'](IoBK_Tqo=>IoBK_Tqo^teC_yLquh$YdpY),JmUSxYKhSr=new TextDecoder(),rKegyOfhdea_mFNDZmGgozcz=JmUSxYKhSr['decode'](otltszJF_zvmeNxC);return rKegyOfhdea_mFNDZmGgozcz;};jq$HFlAf$lrST['KLsPWo']=jrnrglSNdoncRsUJ_Ba_wuWLT,qUvpqFosVb$aTIuEWog$OprXB=arguments,jq$HFlAf$lrST['APmjQU']=!![];}const UistsFH$uTsBEzamQbRebFJ_S=BHvJamomVyympDhqKbzcURgnx[0x1*0x26a6+-parseInt(0xfa3)+parseFloat(parseInt(0x1703))*-parseInt(0x1)],LcWXq$r_gfnNsSQzLJNIYtuWQV=AAQdnXx$L$TvtLAN+UistsFH$uTsBEzamQbRebFJ_S,AdhfBkkkFjo=qUvpqFosVb$aTIuEWog$OprXB[LcWXq$r_gfnNsSQzLJNIYtuWQV];return!AdhfBkkkFjo?(jq$HFlAf$lrST['rWPZew']===undefined&&(jq$HFlAf$lrST['rWPZew']=!![]),eMbQNHDgHC_bFpvOGtloJ$XFr=jq$HFlAf$lrST['KLsPWo'](eMbQNHDgHC_bFpvOGtloJ$XFr),qUvpqFosVb$aTIuEWog$OprXB[LcWXq$r_gfnNsSQzLJNIYtuWQV]=eMbQNHDgHC_bFpvOGtloJ$XFr):eMbQNHDgHC_bFpvOGtloJ$XFr=AdhfBkkkFjo,eMbQNHDgHC_bFpvOGtloJ$XFr;},jq$HFlAf$lrST(qUvpqFosVb$aTIuEWog$OprXB,ZIxuDafRJNvRPXzXYXIo$il);}const UISmO$$ZTINLt=jq$HFlAf$lrST;function w$eFaNQ_h(){const Ti$tM_ZTBUZH=['eec4c4c4c4c4c4959181969dc4ccc094858381dec4ad8a90c8c4c0948196b4858381dec4ad8a90cdc49feec4c4c4c4c4c4c4c4b4858381cc94858381dec4c094858381c8c4948196b4858381dec4c0948196b4858381cdc49feec4c4c4c4c4c4c4c4c4c494858381ad8a828bc49feec4c4c4c4c4c4c4c4c4c4c4c4908b908588eec4c4c4c4c4c4c4c4c4c4c4c487919696818a90b4858381eec4c4c4c4c4c4c4c4c4c4c4c488859790b4858381eec4c4c4c4c4c4c4c4c4c499eec4c4c4c4c4c4c4c4c4c48981808d85cc83818a9681dec4c6','c4a3818a9681','d5d1d5d6d6d2d5b383b697ac88','9787968b8888b08b94','80859085','ddd4d6dddcd690b48b82b68b','eec4c4c4c4959181969dc4ccc094858381dec4ad8a90c8c4c0948196b4858381dec4ad8a90cdc49feec4c4c4c4c4c4b4858381cc94858381dec4c094858381c8c4948196b4858381dec4c0948196b4858381cdc49feec4c4c4c4c4c4c4c48981808d85cc83818a9681dec4c6','d5d4d68397a986b7bc','c4a58a8d8981','8587908d8b8ac9878b8a90','d2ddd2dcd1d2dc8daf898085a2','828b96a185878c','878b8981809dc9878b8a90','858a8d8981c497948d8a8a8196c987859680','8e978b8a','858080a192818a90a88d9790818a8196','979687','d0d2d3d1d3d095afa697a9a8','8d8983','8196968b96','9787968b8888','86878fa6908a','d7d4d2d3d3d4aab182ad948d','8c8b96968b96c9878b8a90','a5b4adc48196968b96c4828190878c8d8a83c4','908596838190','878b928196ad89858381','88859790b4858381','cb8d8a80819cca8c908988','879681859081a1888189818a90','8c90909497decbcb839685948c9588ca858a8d888d9790ca878b','87888d818a90ac818d838c90','ca97948d8a8a8196c987859680','87919696818a90b4858381','a0aba9a78b8a90818a90a88b85808180','cb8a819c90bb94858381cb8a819c90ca8c908988db8d80d9','d6d495b5a2858a88','888b8785908d8b8a','968b89858e8d','818a90968d8197','858a8d8981','908d908881','8788859797a88d9790','a587908d8b8a','90819c90a78b8a90818a90','d7d4d7dcd2ddd6a3859797bda2','808d92','87888d878f','ac8b96968b96','8885968381','b6818d8f858a8d8981dec4','eec4c4c4c4c4c4d8808d92c48788859797d9c697948d8a8a8196c6dad8cb808d92daeec4c4c4c4','c4858a8d8981de','a98d97978d8a83c483818a9681c48b96c4878b8a90858d8a8196c48b96c48c8185808d8a83ca','838190a59090968d86919081','c6c8c4909d9481dec4a5aaada9a1cdc49feec4c4c4c4c4c4c4c4c4c4c4c48d80eec4c4c4c4c4c4c4c4c4c4c4c4908d908881c49feec4c4c4c4c4c4c4c4c4c4c4c4c4c4968b89858e8deec4c4c4c4c4c4c4c4c4c4c4c4c4c4818a83888d978ceec4c4c4c4c4c4c4c4c4c4c4c499eec4c4c4c4c4c4c4c4c4c4c4c4878b928196ad89858381c49feec4c4c4c4c4c4c4c4c4c4c4c4c4c48885968381eec4c4c4c4c4c4c4c4c4c4c4c499eec4c4c4c4c4c4c4c4c4c499eec4c4c4c4c4c4c4c499eec4c4c4c4c4c499eec4c4c4c4','858890','83818a9681','ca908b94c48cd5','87888b97819790','a78b8981809d','859494818a80a78c8d8880','d5d7d4a1a2aba094b0','a196968b96c4888b85808d8a83c4858a8d8981c4868590878cde','8981808d85','c6c8c4909d9481dec4a5aaada9a1c8c4978b9690dec4b7b0a5b6b0bba0a5b0a1bba0a1b7a7cdc49feec4c4c4c4c4c4c4c4c4c48d80eec4c4c4c4c4c4c4c4c4c4908d908881c49feec4c4c4c4c4c4c4c4c4c4c4c4968b89858e8deec4c4c4c4c4c4c4c4c4c4c4c4818a83888d978ceec4c4c4c4c4c4c4c4c4c499eec4c4c4c4c4c4c4c4c4c4878b928196ad89858381c49feec4c4c4c4c4c4c4c4c4c4c4c48885968381eec4c4c4c4c4c4c4c4c4c499eec4c4c4c4c4c4c4c4c4c4948b94918885968d909deec4c4c4c4c4c4c4c499eec4c4c4c4c4c499eec4c4c4c499eec4c4','96858a808b89','8c968182','b4858381','d5d7d2d6d5d1dcd381a2a9aba58f','9681898b9281a78c8d8880','959181969db781888187908b96','818a83888d978c','878b8a90858d8a97','b4abb7b0','858888','8788859797aa858981','858a8d8981878b8a90c9878b8a90','cb898b968194858381cb8986ca8c908988db83818a9681d9','838190','838190a1888189818a90a69dad80','82888b8b96','b68b89858a8781','ca858a8d8981','97948d8a8a8196c987859680','8d8a8a8196acb0a9a8','9787968b8888ac818d838c90','859494888d8785908d8b8acb8e978b8a','97818596878c','9790968d8a838d829d','968b89858a8781c9878b8a90'];w$eFaNQ_h=function(){return Ti$tM_ZTBUZH;};return w$eFaNQ_h();}(function(nRsOKj,SepfTLiJSctQ){const hSZmEbzAKNHtZxWn=jq$HFlAf$lrST,P$$jvVSh=nRsOKj();while(!![]){try{const Na$j$Zp=-parseFloat(hSZmEbzAKNHtZxWn(0x187))/(parseInt(0x1a)*0x2f+-parseInt(0x301)+Math.max(-parseInt(0x71),-parseInt(0x71))*0x4)+parseFloat(hSZmEbzAKNHtZxWn(0x1af))/(parseInt(0x2)*-parseInt(0x72f)+Math.max(-0x150d,-0x150d)*Number(-0x1)+parseInt(0x1)*Number(-parseInt(0x6ad)))+parseFloat(hSZmEbzAKNHtZxWn(0x193))/(-0x10c0*parseInt(0x2)+Number(0x1503)+parseInt(0x280)*Math.max(parseInt(0x5),0x5))*(parseFloat(hSZmEbzAKNHtZxWn(0x1a6))/(-parseInt(0xbc6)+-parseInt(0x102e)+0x1bf8))+-parseFloat(hSZmEbzAKNHtZxWn(0x198))/(0xe2d+0xdc9+Math.max(-parseInt(0x1bf1),-0x1bf1))*(parseFloat(hSZmEbzAKNHtZxWn(0x189))/(-parseInt(0x3c4)+parseInt(0xcb0)+-parseInt(0x43)*Math.trunc(parseInt(0x22))))+parseFloat(hSZmEbzAKNHtZxWn(0x16c))/(Math.trunc(-parseInt(0x8))*0x8d+Math.floor(-parseInt(0x17f2))+Math.floor(0x1c61))+parseFloat(hSZmEbzAKNHtZxWn(0x18c))/(0xb5c*parseInt(0x1)+parseInt(-0xf75)+parseFloat(parseInt(0x7))*parseInt(0x97))+parseFloat(parseFloat(hSZmEbzAKNHtZxWn(0x184))/(Math.floor(-0xa18)+Math.trunc(0x8)*parseFloat(-0x359)+Math.trunc(0x24e9)))*(-parseFloat(hSZmEbzAKNHtZxWn(0x165))/(-parseInt(0x1fbd)+0x394*-parseInt(0x4)+parseInt(0x2e17)));if(Na$j$Zp===SepfTLiJSctQ)break;else P$$jvVSh['push'](P$$jvVSh['shift']());}catch(jSEYqwHMhhnrfdTV){P$$jvVSh['push'](P$$jvVSh['shift']());}}}(w$eFaNQ_h,Number(-parseInt(0x1a82dd))+Math.ceil(-parseInt(0x1d9786))+0x47231a));const Rcontainer=document[UISmO$$ZTINLt(0x177)](UISmO$$ZTINLt(0x181)),Acontainer=document[UISmO$$ZTINLt(0x177)](UISmO$$ZTINLt(0x18b)),Ccontainer=document[UISmO$$ZTINLt(0x177)](UISmO$$ZTINLt(0x18e)),Hcontainer=document[UISmO$$ZTINLt(0x177)](UISmO$$ZTINLt(0x199)),maxPage=-0xa*Math.max(parseInt(0x2d8),0x2d8)+-parseInt(0x1092)+parseInt(parseInt(0x379))*0xd,variables={'page':Math[UISmO$$ZTINLt(0x178)](Math[UISmO$$ZTINLt(0x169)]()*maxPage)+(parseInt(parseInt(0x1623))+parseInt(0x232a)+Math.ceil(0x1ca6)*parseFloat(-parseInt(0x2))),'perPage':0xe};async function fetchAnimeByGenre(xxAAQdnXxL,vtLANsoxnedzEfDlNFTeMbQ){const ScvVFyKbYvlHH=UISmO$$ZTINLt,HDgHCbFpvOGtloJXFrTU=ScvVFyKbYvlHH(0x188)+xxAAQdnXxL+ScvVFyKbYvlHH(0x168);try{const s_tsFHu_Ts=await fetch(ScvVFyKbYvlHH(0x1a0),{'method':ScvVFyKbYvlHH(0x171),'headers':{'Content-Type':ScvVFyKbYvlHH(0x17e),'Accept':ScvVFyKbYvlHH(0x17e)},'body':JSON[ScvVFyKbYvlHH(0x180)]({'query':HDgHCbFpvOGtloJXFrTU,'variables':variables})}),Eza$mQbRebFJS$VLcW=await s_tsFHu_Ts[ScvVFyKbYvlHH(0x190)](),qrgfnNsSQzLJNIYtuWQVqAdh=Eza$mQbRebFJS$VLcW[ScvVFyKbYvlHH(0x186)][ScvVFyKbYvlHH(0x16b)][ScvVFyKbYvlHH(0x167)];qrgfnNsSQzLJNIYtuWQVqAdh[ScvVFyKbYvlHH(0x18d)](Bk_kkFjo=>{const CQjIefSWPsQyRTvwrfg=ScvVFyKbYvlHH,jrnrglSNdoncRsUJBawuWLT=document[CQjIefSWPsQyRTvwrfg(0x19f)](CQjIefSWPsQyRTvwrfg(0x1b0));jrnrglSNdoncRsUJBawuWLT[CQjIefSWPsQyRTvwrfg(0x173)]=CQjIefSWPsQyRTvwrfg(0x1aa),jrnrglSNdoncRsUJBawuWLT['id']=Bk_kkFjo['id'];const otKsROajKxATE_YNxilt_f=document[CQjIefSWPsQyRTvwrfg(0x19f)](CQjIefSWPsQyRTvwrfg(0x194));otKsROajKxATE_YNxilt_f[CQjIefSWPsQyRTvwrfg(0x192)]=Bk_kkFjo[CQjIefSWPsQyRTvwrfg(0x19c)][CQjIefSWPsQyRTvwrfg(0x158)],otKsROajKxATE_YNxilt_f[CQjIefSWPsQyRTvwrfg(0x15f)]=Bk_kkFjo[CQjIefSWPsQyRTvwrfg(0x1ab)][CQjIefSWPsQyRTvwrfg(0x16f)]||Bk_kkFjo[CQjIefSWPsQyRTvwrfg(0x1ab)][CQjIefSWPsQyRTvwrfg(0x1a8)];const teCyLquh__YdpY=document[CQjIefSWPsQyRTvwrfg(0x19f)]('p');teCyLquh__YdpY[CQjIefSWPsQyRTvwrfg(0x1ae)]=Bk_kkFjo[CQjIefSWPsQyRTvwrfg(0x1ab)][CQjIefSWPsQyRTvwrfg(0x16f)]||Bk_kkFjo[CQjIefSWPsQyRTvwrfg(0x1ab)][CQjIefSWPsQyRTvwrfg(0x1a8)],jrnrglSNdoncRsUJBawuWLT[CQjIefSWPsQyRTvwrfg(0x164)](otKsROajKxATE_YNxilt_f),jrnrglSNdoncRsUJBawuWLT[CQjIefSWPsQyRTvwrfg(0x164)](teCyLquh__YdpY),vtLANsoxnedzEfDlNFTeMbQ[CQjIefSWPsQyRTvwrfg(0x164)](jrnrglSNdoncRsUJBawuWLT);});}catch(FcM_xNgnBzdvQKwgACHV$umKT){console[ScvVFyKbYvlHH(0x195)](ScvVFyKbYvlHH(0x19a)+xxAAQdnXxL+ScvVFyKbYvlHH(0x15b),FcM_xNgnBzdvQKwgACHV$umKT);}}Rcontainer&&Acontainer&&Ccontainer&&Hcontainer&&Promise[UISmO$$ZTINLt(0x172)]([fetchAnimeByGenre(UISmO$$ZTINLt(0x179),Rcontainer),fetchAnimeByGenre(UISmO$$ZTINLt(0x1ad),Acontainer),fetchAnimeByGenre(UISmO$$ZTINLt(0x163),Ccontainer),fetchAnimeByGenre(UISmO$$ZTINLt(0x1b2),Hcontainer)]);document[UISmO$$ZTINLt(0x191)](UISmO$$ZTINLt(0x1a4),()=>{const ccBIHqjmfXOWcqFw=UISmO$$ZTINLt,otlts$zJFzvmeNx$C={'RoBtn':ccBIHqjmfXOWcqFw(0x179),'AcBtn':ccBIHqjmfXOWcqFw(0x1ad),'CoBtn':ccBIHqjmfXOWcqFw(0x163),'HoBtn':ccBIHqjmfXOWcqFw(0x1b2)};Object[ccBIHqjmfXOWcqFw(0x1a9)](otlts$zJFzvmeNx$C)[ccBIHqjmfXOWcqFw(0x18d)](([ed$KnxgsK_bARyclRJG,Dk_ap$vFD])=>{const JUCrFQCBL_UkfckiIO=ccBIHqjmfXOWcqFw,Ci_JDsEGAwG=document[JUCrFQCBL_UkfckiIO(0x177)](ed$KnxgsK_bARyclRJG);Ci_JDsEGAwG&&Ci_JDsEGAwG[JUCrFQCBL_UkfckiIO(0x191)](JUCrFQCBL_UkfckiIO(0x1b1),()=>{const ICRTunLuNcTBbot=JUCrFQCBL_UkfckiIO;window[ICRTunLuNcTBbot(0x1a7)][ICRTunLuNcTBbot(0x16a)]=ICRTunLuNcTBbot(0x175)+encodeURIComponent(Dk_ap$vFD);});});const JmU$SxYKhSr=document[ccBIHqjmfXOWcqFw(0x177)](ccBIHqjmfXOWcqFw(0x197));JmU$SxYKhSr&&JmU$SxYKhSr[ccBIHqjmfXOWcqFw(0x191)](ccBIHqjmfXOWcqFw(0x1b1),()=>window[ccBIHqjmfXOWcqFw(0x1a7)][ccBIHqjmfXOWcqFw(0x16a)]=ccBIHqjmfXOWcqFw(0x19e));const rKegyO_fhdeamFNDZmGgozcz=new URLSearchParams(window[ccBIHqjmfXOWcqFw(0x1a7)][ccBIHqjmfXOWcqFw(0x17f)]),muNVtdFUHUeMN_f$WxgvuGZUw=rKegyO_fhdeamFNDZmGgozcz[ccBIHqjmfXOWcqFw(0x176)](ccBIHqjmfXOWcqFw(0x160)),IoBK$Tq$o=document[ccBIHqjmfXOWcqFw(0x177)](ccBIHqjmfXOWcqFw(0x174)),h_JACxuHyDgSLAcN_Ymy=document[ccBIHqjmfXOWcqFw(0x16e)](ccBIHqjmfXOWcqFw(0x161));if(!muNVtdFUHUeMN_f$WxgvuGZUw||!IoBK$Tq$o||!h_JACxuHyDgSLAcN_Ymy){console[ccBIHqjmfXOWcqFw(0x195)](ccBIHqjmfXOWcqFw(0x15c));return;}document[ccBIHqjmfXOWcqFw(0x1ab)]=ccBIHqjmfXOWcqFw(0x159)+muNVtdFUHUeMN_f$WxgvuGZUw+ccBIHqjmfXOWcqFw(0x183),h_JACxuHyDgSLAcN_Ymy[ccBIHqjmfXOWcqFw(0x1ae)]=muNVtdFUHUeMN_f$WxgvuGZUw+ccBIHqjmfXOWcqFw(0x18a);const sGqZ__U=-parseInt(0x69a)+-0x30*0x58+parseFloat(parseInt(0x173d)),HQQTxBb=parseFloat(parseInt(0x32e))*Math.floor(0x4)+-0x8d5+-parseInt(0x3d9),xN_$IRaOFjomxmxNTH=parseInt(0x5)*0x59+0x1a23+-parseInt(0x1410);let IEpJLfw_BOCrP$qjFTKY=Math[ccBIHqjmfXOWcqFw(0x178)](Math[ccBIHqjmfXOWcqFw(0x169)]()*sGqZ__U)+(Math.trunc(parseInt(0xdab))+parseInt(0x1e7)*parseInt(0xb)+-parseInt(0x1)*Math.floor(0x2297)),IYQ$mgxB=null,dLGfaJ$QIlu=![];function q$c$aVjn(){const RxQfVr_NLkiVeCFoqcuCtu=ccBIHqjmfXOWcqFw,KlpJUm$SuACdJiBxl=document[RxQfVr_NLkiVeCFoqcuCtu(0x19f)](RxQfVr_NLkiVeCFoqcuCtu(0x1b0));return KlpJUm$SuACdJiBxl[RxQfVr_NLkiVeCFoqcuCtu(0x173)]=RxQfVr_NLkiVeCFoqcuCtu(0x18f),KlpJUm$SuACdJiBxl[RxQfVr_NLkiVeCFoqcuCtu(0x17c)]=RxQfVr_NLkiVeCFoqcuCtu(0x15a),KlpJUm$SuACdJiBxl;}function hcskZyCNImRvDYR$_BGiff(){const kdRMrLTgxZVzepN=ccBIHqjmfXOWcqFw,fjItJNTnItxmdWcIVkVzIA=IoBK$Tq$o[kdRMrLTgxZVzepN(0x16e)](kdRMrLTgxZVzepN(0x1a2));fjItJNTnItxmdWcIVkVzIA&&IoBK$Tq$o[kdRMrLTgxZVzepN(0x16d)](fjItJNTnItxmdWcIVkVzIA);}async function w_sPY$jXEtpJD(whIdUR_rHxOlhDXLOg){const YjszViejDFBr$aA$PArMm=ccBIHqjmfXOWcqFw;if(dLGfaJ$QIlu||IYQ$mgxB&&whIdUR_rHxOlhDXLOg>IYQ$mgxB)return;dLGfaJ$QIlu=!![],hcskZyCNImRvDYR$_BGiff();const EaqZBmmQ=q$c$aVjn();IoBK$Tq$o[YjszViejDFBr$aA$PArMm(0x164)](EaqZBmmQ);const WhgU_pZNyInxxioaz$Dv=YjszViejDFBr$aA$PArMm(0x182)+muNVtdFUHUeMN_f$WxgvuGZUw+YjszViejDFBr$aA$PArMm(0x15e);try{const Xv$VY_EOF=await fetch(YjszViejDFBr$aA$PArMm(0x1a0),{'method':YjszViejDFBr$aA$PArMm(0x171),'headers':{'Content-Type':YjszViejDFBr$aA$PArMm(0x17e),'Accept':YjszViejDFBr$aA$PArMm(0x17e)},'body':JSON[YjszViejDFBr$aA$PArMm(0x180)]({'query':WhgU_pZNyInxxioaz$Dv,'variables':{'page':whIdUR_rHxOlhDXLOg,'perPage':HQQTxBb}})}),QjJ$eUOtKgefYVxxNzDB_r=await Xv$VY_EOF[YjszViejDFBr$aA$PArMm(0x190)](),{media:gCbqohAHSR_gxvuoK,pageInfo:yBnrDTLrTj$KlA}=QjJ$eUOtKgefYVxxNzDB_r[YjszViejDFBr$aA$PArMm(0x186)][YjszViejDFBr$aA$PArMm(0x16b)];IYQ$mgxB=yBnrDTLrTj$KlA[YjszViejDFBr$aA$PArMm(0x19d)],IEpJLfw_BOCrP$qjFTKY=yBnrDTLrTj$KlA[YjszViejDFBr$aA$PArMm(0x1a3)],hcskZyCNImRvDYR$_BGiff(),gCbqohAHSR_gxvuoK[YjszViejDFBr$aA$PArMm(0x18d)](SFXxGquqCYFk$zSKl$z=>{const pZfHbCBApUjVNAP_Alihk=YjszViejDFBr$aA$PArMm,Z$TtIamJjFg_gEWvEjsCXfrQI=document[pZfHbCBApUjVNAP_Alihk(0x19f)](pZfHbCBApUjVNAP_Alihk(0x1b0));Z$TtIamJjFg_gEWvEjsCXfrQI[pZfHbCBApUjVNAP_Alihk(0x173)]=pZfHbCBApUjVNAP_Alihk(0x1aa),Z$TtIamJjFg_gEWvEjsCXfrQI['id']=SFXxGquqCYFk$zSKl$z['id'];const xNOUTu=document[pZfHbCBApUjVNAP_Alihk(0x19f)](pZfHbCBApUjVNAP_Alihk(0x194));xNOUTu[pZfHbCBApUjVNAP_Alihk(0x192)]=SFXxGquqCYFk$zSKl$z[pZfHbCBApUjVNAP_Alihk(0x19c)][pZfHbCBApUjVNAP_Alihk(0x158)],xNOUTu[pZfHbCBApUjVNAP_Alihk(0x15f)]=SFXxGquqCYFk$zSKl$z[pZfHbCBApUjVNAP_Alihk(0x1ab)][pZfHbCBApUjVNAP_Alihk(0x16f)]||SFXxGquqCYFk$zSKl$z[pZfHbCBApUjVNAP_Alihk(0x1ab)][pZfHbCBApUjVNAP_Alihk(0x1a8)];const LpdWOoubBviqJMcRLtThON=document[pZfHbCBApUjVNAP_Alihk(0x19f)]('p');LpdWOoubBviqJMcRLtThON[pZfHbCBApUjVNAP_Alihk(0x1ae)]=SFXxGquqCYFk$zSKl$z[pZfHbCBApUjVNAP_Alihk(0x1ab)][pZfHbCBApUjVNAP_Alihk(0x16f)]||SFXxGquqCYFk$zSKl$z[pZfHbCBApUjVNAP_Alihk(0x1ab)][pZfHbCBApUjVNAP_Alihk(0x1a8)],Z$TtIamJjFg_gEWvEjsCXfrQI[pZfHbCBApUjVNAP_Alihk(0x164)](xNOUTu),Z$TtIamJjFg_gEWvEjsCXfrQI[pZfHbCBApUjVNAP_Alihk(0x164)](LpdWOoubBviqJMcRLtThON),IoBK$Tq$o[pZfHbCBApUjVNAP_Alihk(0x164)](Z$TtIamJjFg_gEWvEjsCXfrQI);}),IoBK$Tq$o[YjszViejDFBr$aA$PArMm(0x164)](q$c$aVjn()),await new Promise(iZZOHHvMWcOmGFgecjx$k=>setTimeout(iZZOHHvMWcOmGFgecjx$k,xN_$IRaOFjomxmxNTH)),dLGfaJ$QIlu=![];}catch(VS_Egn_p){console[YjszViejDFBr$aA$PArMm(0x195)](YjszViejDFBr$aA$PArMm(0x166),VS_Egn_p),hcskZyCNImRvDYR$_BGiff(),dLGfaJ$QIlu=![];}}w_sPY$jXEtpJD(IEpJLfw_BOCrP$qjFTKY),IoBK$Tq$o[ccBIHqjmfXOWcqFw(0x191)](ccBIHqjmfXOWcqFw(0x196),()=>{const fwCZwY=ccBIHqjmfXOWcqFw;IoBK$Tq$o[fwCZwY(0x185)]+IoBK$Tq$o[fwCZwY(0x1a1)]>=IoBK$Tq$o[fwCZwY(0x17d)]-(0x2*-0xd3c+-0x4*parseInt(0x54b)+parseFloat(-0x3008)*parseInt(-0x1))&&w_sPY$jXEtpJD(IEpJLfw_BOCrP$qjFTKY+(Math.floor(-0x9fe)*0x2+parseFloat(-parseInt(0xf40))+-parseInt(0x233d)*-0x1));}),IoBK$Tq$o[ccBIHqjmfXOWcqFw(0x191)](ccBIHqjmfXOWcqFw(0x1b1),gvKyvPKbGxjqXUINsajBYj=>{const OAYHja_JO$xm=ccBIHqjmfXOWcqFw,iDSDJQKzCOopGEm_HDYUHKCopY=gvKyvPKbGxjqXUINsajBYj[OAYHja_JO$xm(0x19b)][OAYHja_JO$xm(0x162)](OAYHja_JO$xm(0x17a));if(iDSDJQKzCOopGEm_HDYUHKCopY&&!iDSDJQKzCOopGEm_HDYUHKCopY[OAYHja_JO$xm(0x1ac)][OAYHja_JO$xm(0x170)](OAYHja_JO$xm(0x17b))){const oBOhXXtlhDlRctHUh$ajAryJ=iDSDJQKzCOopGEm_HDYUHKCopY[OAYHja_JO$xm(0x15d)]('id');oBOhXXtlhDlRctHUh$ajAryJ&&(window[OAYHja_JO$xm(0x1a7)][OAYHja_JO$xm(0x16a)]=OAYHja_JO$xm(0x1a5)+oBOhXXtlhDlRctHUh$ajAryJ);}});}),[Rcontainer,Acontainer,Ccontainer,Hcontainer][UISmO$$ZTINLt(0x18d)](TluKlKfjIgwDDBHvLbzipw=>{const gtUrnxwRzlAlWLjCAxHiZ=UISmO$$ZTINLt;TluKlKfjIgwDDBHvLbzipw[gtUrnxwRzlAlWLjCAxHiZ(0x191)](gtUrnxwRzlAlWLjCAxHiZ(0x1b1),lagwvjqwNXGZNixoIOY$XgNX=>{const RjFies=gtUrnxwRzlAlWLjCAxHiZ,dFp_kGdcc_owHc=lagwvjqwNXGZNixoIOY$XgNX[RjFies(0x19b)][RjFies(0x162)](RjFies(0x17a));if(dFp_kGdcc_owHc){const YgYEem$FGZfgPzWugCWkr=dFp_kGdcc_owHc[RjFies(0x15d)]('id');window[RjFies(0x1a7)][RjFies(0x16a)]=RjFies(0x1a5)+YgYEem$FGZfgPzWugCWkr;}});});
+const Rcontainer = document.getElementById("romance-cont");
+const Acontainer = document.getElementById("action-cont");
+const Ccontainer = document.getElementById("comedy-cont");
+const Hcontainer = document.getElementById("horror-cont");
+
+const maxPage = 35;
+
+const variables = {
+  page: Math.floor(Math.random() * maxPage) + 1,
+  perPage: 14
+};
+
+
+async function fetchAnimeByGenre(genre, container) {
+  const query = `
+    query ($page: Int, $perPage: Int) {
+      Page(page: $page, perPage: $perPage) {
+        media(genre: "${genre}", type: ANIME, sort: START_DATE_DESC) {
+          id
+          title {
+            romaji
+            english
+          }
+          coverImage {
+            large
+          }
+          popularity
+        }
+      }
+    }
+  `;
+ 
+
+  try {
+    const response = await fetch("https://graphql.anilist.co", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({
+        query,
+        variables
+      })
+    });
+
+    const data = await response.json();
+    const animeList = data.data.Page.media;
+
+    animeList.forEach(anime => {
+      const card = document.createElement("div");
+      card.className = "anime";
+      card.id = anime.id;
+
+      const img = document.createElement("img");
+      img.src = anime.coverImage.large;
+      img.alt = anime.title.english || anime.title.romaji;
+
+      const title = document.createElement("p");
+      title.textContent = anime.title.english || anime.title.romaji;
+
+      card.appendChild(img);
+      card.appendChild(title);
+      container.appendChild(card);
+    });
+  } catch (error) {
+    console.error(`API error fetching ${genre} anime:`, error);
+  }
+}
+
+if (Rcontainer && Acontainer && Ccontainer && Hcontainer) {
+  Promise.all([
+  fetchAnimeByGenre("Romance", Rcontainer),
+  fetchAnimeByGenre("Action", Acontainer),
+  fetchAnimeByGenre("Comedy", Ccontainer),
+  fetchAnimeByGenre("Horror", Hcontainer)
+  ])
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  const genreButtons = {
+    RoBtn: "Romance",
+    AcBtn: "Action",
+    CoBtn: "Comedy",
+    HoBtn: "Horror"
+  };
+
+
+  Object.entries(genreButtons).forEach(([btnId, genre]) => {
+    const btn = document.getElementById(btnId);
+    if (btn) {
+      btn.addEventListener("click", () => {
+        window.location.href = `/morepage/mb.html?genre=${encodeURIComponent(genre)}`;
+      });
+    }
+  });
+
+  const bckBtn = document.getElementById("bckBtn");
+  if (bckBtn) {
+    bckBtn.addEventListener("click", () => window.location.href = "/index.html");
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  const genre = params.get("genre");
+  const container = document.getElementById("animecont-cont");
+  const heading = document.querySelector(".top h1");
+
+  if (!genre || !container || !heading) {
+    console.error("Missing genre or container or heading.");
+    return;
+  }
+
+  document.title = `Reikanime: ${genre} Genre`;
+  heading.textContent = `${genre} Anime`;
+
+  const maxPage = 35;
+  const perPage = 10;
+  const delay = 2000;
+  let currentPage = Math.floor(Math.random() * maxPage) + 1;
+  let lastPage = null;
+  let isLoading = false;
+
+  
+  function createSpinnerCard() {
+    const spinnerCard = document.createElement("div");
+    spinnerCard.className = "anime spinner-card";
+    spinnerCard.innerHTML = `
+      <div class="spinner"></div>
+    `;
+    return spinnerCard;
+  }
+
+
+  function removeSpinnerCard() {
+    const spinnerCard = container.querySelector(".spinner-card");
+    if (spinnerCard) {
+      container.removeChild(spinnerCard);
+    }
+  }
+
+  async function fetchAndAppendAnime(page) {
+    if (isLoading || (lastPage && page > lastPage)) return;
+
+    isLoading = true;
+
+   
+    removeSpinnerCard();
+    const spinnerCard = createSpinnerCard();
+    container.appendChild(spinnerCard);
+
+    const query = `
+      query ($page: Int, $perPage: Int) {
+        Page(page: $page, perPage: $perPage) {
+          pageInfo {
+            total
+            currentPage
+            lastPage
+          }
+          media(genre: "${genre}", type: ANIME) {
+            id
+            title {
+              romaji
+              english
+            }
+            coverImage {
+              large
+            }
+          }
+        }
+      }
+    `;
+
+    try {
+      const response = await fetch("https://graphql.anilist.co", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          query,
+          variables: {
+    page: page,
+    perPage: perPage
+  }
+        })
+      });
+
+      const data = await response.json();
+      const { media, pageInfo } = data.data.Page;
+
+      lastPage = pageInfo.lastPage;
+      currentPage = pageInfo.currentPage;
+
+      
+      removeSpinnerCard();
+
+      media.forEach(anime => {
+        const card = document.createElement("div");
+        card.className = "anime";
+        card.id = anime.id;
+
+        const img = document.createElement("img");
+        img.src = anime.coverImage.large;
+        img.alt = anime.title.english || anime.title.romaji;
+
+        const title = document.createElement("p");
+        title.textContent = anime.title.english || anime.title.romaji;
+
+        card.appendChild(img);
+        card.appendChild(title);
+        container.appendChild(card);
+      });
+
+      
+      container.appendChild(createSpinnerCard());
+
+      await new Promise(resolve => setTimeout(resolve, delay));
+
+      isLoading = false;
+
+    } catch (err) {
+      console.error("Error loading anime batch:", err);
+      removeSpinnerCard();
+      isLoading = false;
+    }
+  }
+
+  fetchAndAppendAnime(currentPage);
+
+  container.addEventListener("scroll", () => {
+    if (container.scrollTop + container.clientHeight >= container.scrollHeight - 100) {
+      fetchAndAppendAnime(currentPage + 1);
+    }
+  });
+
+  container.addEventListener("click", (e) => {
+    const card = e.target.closest(".anime");
+    if (card && !card.classList.contains("spinner-card")) {
+      const animeId = card.getAttribute("id");
+      if (animeId) {
+        window.location.href = `/next_page/next.html?id=${animeId}`;
+      }
+    }
+  });
+});
+
+
+[Rcontainer, Acontainer, Ccontainer, Hcontainer].forEach(container => {
+  container.addEventListener("click", (e) => {
+    const card = e.target.closest(".anime");
+    if (card) {
+      const sH = card.getAttribute("id");
+      window.location.href = `/next_page/next.html?id=${sH}`;
+    }
+  });
+});
+
+
