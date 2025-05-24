@@ -368,6 +368,41 @@ main:hover {
     }
 }
 
+@media (max-width: 360px) {
+    .anime {
+        width: 8rem;
+    }
+    
+    .anime img {
+        width: 6rem;
+        height: 8rem;
+    }
+    
+    .top img {
+        width: 1rem;
+    }
+    
+    .popular h1 {
+        font-size: 1rem;
+    }
+    
+    .popular p {
+        font-size: 0.9rem;
+    }
+
+    .anm-cont{
+      width: 16rem;
+    }
+
+    .anime-panels .top {
+      width: 16rem;
+    }
+
+    .search-results {
+      top: 9rem;
+    }
+}
+
 @media (max-width: 320px) {
     .anime {
         width: 8rem;
