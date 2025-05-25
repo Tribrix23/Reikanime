@@ -39,6 +39,36 @@ body {
     overflow-y: auto; 
 }
 
+.language-buttons {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.sub-btn, .dub-btn {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sub-btn {
+    margin-top: 2rem;
+    background-color: white;
+    color: balck;
+}
+
+.dub-btn {
+    margin-top: 2rem;
+    background-color: white;
+    color: black;
+}
+
+.sub-btn:hover, .dub-btn:hover {
+    opacity: 0.8;
+}
+
 .epsbtn button{
     width: 2.5rem;
     height: 2.5rem;
@@ -61,6 +91,20 @@ body {
     position: fixed;
     cursor: pointer;
     transition: .15s ease-in;
+}
+
+.sub-btn, .dub-btn {
+  background-color: white;
+}
+
+.sub-btn.active {
+  background-color: rgba(226, 107, 9, 0.952);
+  color: white;
+}
+
+.dub-btn.active {
+  background-color: rgba(226, 107, 9, 0.952);
+  color: white;
 }
 
 main {
