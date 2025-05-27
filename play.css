@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,12 +5,11 @@
 }
 
 body {
-    background-color: rgba(32, 29, 29, 0.6); 
+    background-color: rgba(32, 29, 29, 0.6);
     height: 100vh;
-    overflow-y: hidden;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
-    overflow-x: hidden;
 }
 
 .episode {
@@ -30,15 +28,6 @@ body {
     margin-bottom: 1rem;
 }
 
-.epsbtn {
-    display: flex;
-    margin-top: 1rem;
-    flex-wrap: wrap;
-    width: calc((2.5rem + 0.5rem) * 5);
-    gap: 0.8rem;
-    overflow-y: auto; 
-}
-
 .language-buttons {
     display: flex;
     gap: 10px;
@@ -51,15 +40,6 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
-}
-
-.sub-btn {
-    margin-top: 2rem;
-    background-color: white;
-    color: balck;
-}
-
-.dub-btn {
     margin-top: 2rem;
     background-color: white;
     color: black;
@@ -69,7 +49,22 @@ body {
     opacity: 0.8;
 }
 
-.epsbtn button{
+.sub-btn.active, .dub-btn.active {
+    background-color: rgba(226, 107, 9, 0.952);
+    color: white;
+}
+
+.epsbtn {
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    width: calc((2.5rem + 0.5rem) * 5);
+    gap: 0.8rem;
+    overflow-y: auto;
+    margin-left: 2.5rem;
+}
+
+.epsbtn button {
     width: 2.5rem;
     height: 2.5rem;
     cursor: pointer;
@@ -78,14 +73,13 @@ body {
     border-color: white;
 }
 
-.epsbtn button:hover{
+.epsbtn button:hover {
     background-color: rgba(226, 107, 9, 0.952);
     transition: .15s ease-out;
     border: none;
 }
 
-
-.return{
+.return {
     color: white;
     bottom: 2rem;
     position: fixed;
@@ -93,51 +87,113 @@ body {
     transition: .15s ease-in;
 }
 
-.sub-btn, .dub-btn {
-  background-color: white;
-}
-
-.sub-btn.active {
-  background-color: rgba(226, 107, 9, 0.952);
-  color: white;
-}
-
-.dub-btn.active {
-  background-color: rgba(226, 107, 9, 0.952);
-  color: white;
-}
-
 main {
     width: 65rem;
-    overflow-y: hidden;
-    height: calc(100vh);
-    background-color: red;
-    right: 0rem;
+    overflow: hidden;
+    height: 100vh;
+    background-color: #000;
+    right: 0;
     position: fixed;
     flex-direction: column;
-    overflow-x: hidden;
 }
 
-main iframe{
+#Animetlt {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.7);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.video-container {
     width: 100%;
     height: 100%;
 }
 
-#Animetlt {
+.video-protector {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.click-shield {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    pointer-events: none;
+}
+
+.alt-player {
     display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    z-index: 10;
 }
 
-.epsbtn{
-  scrollbar-width: none;
-  scrollbar-color: white transparent;
-  margin-left: 2.5rem;
+.player-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.9);
+    gap: 30px;
 }
 
-.epsbtn:hover {
-  scrollbar-width: thin;
-  scrollbar-color: white transparent;
+.player-controls {
+    display: flex;
+    gap: 20px;
 }
 
+#playBtn, #nextBtn {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: rgba(226, 107, 9, 0.952);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#playBtn:hover, #nextBtn:hover {
+    background-color: rgba(226, 107, 9, 0.8);
+    transform: scale(1.05);
+}
+
+.alt-video-info {
+    color: white;
+    text-align: center;
+}
+
+.alt-video-info h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.alt-video-info p {
+    font-size: 1.2rem;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 @media screen and (max-width: 1400px) {
     main {
@@ -152,27 +208,27 @@ main iframe{
         min-height: 100vh;
         overflow-y: auto;
     }
-    
+
     .episode {
         width: 100%;
         padding: 1rem 0;
-        height: 20rem;
+        height: auto;
     }
-    
+
     .epsbtn {
         width: 100%;
         justify-content: center;
         padding: 0 1rem;
         margin-left: 0;
     }
-    
+
     main {
         position: relative;
         width: 100%;
         height: 70vh;
         right: auto;
     }
-    
+
     .return {
         position: relative;
         bottom: auto;
@@ -187,18 +243,18 @@ main iframe{
         margin-top: 1.5rem;
         font-size: x-large;
     }
-    
+
     .epsbtn {
         gap: 0.6rem;
     }
-    
-    main {
-        height: 60vh;
-    }
-    
+
     .epsbtn button {
         width: 2.2rem;
         height: 2.2rem;
+    }
+
+    main {
+        height: 60vh;
     }
 }
 
@@ -207,12 +263,12 @@ main iframe{
         font-size: large;
         margin-top: 1rem;
     }
-    
+
     .epsbtn button {
         width: 2rem;
         height: 2rem;
     }
-    
+
     main {
         height: 50vh;
     }
@@ -222,12 +278,12 @@ main iframe{
     .epsbtn {
         gap: 0.4rem;
     }
-    
+
     .epsbtn button {
         width: 1.8rem;
         height: 1.8rem;
     }
-    
+
     main {
         height: 45vh;
     }
