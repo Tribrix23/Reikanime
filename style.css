@@ -220,7 +220,7 @@ main:hover {
   scrollbar-color: white transparent;
 }
 
-@media(max-width: 1920px) {
+@media(min-width: 1920px) {
     .popular{
         position: fixed;
         right: 2rem;
