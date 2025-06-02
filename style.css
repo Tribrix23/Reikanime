@@ -392,7 +392,7 @@ main:hover {
     }
 }
 
-@media (max-width: 393px) {
+@media (min-width: 393px) {
     .anime {
         width: 8rem;
     }
