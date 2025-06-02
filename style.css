@@ -220,6 +220,30 @@ main:hover {
   scrollbar-color: white transparent;
 }
 
+@media(max-width: 1920px) {
+    .popular{
+        position: fixed;
+        right: 2rem;
+        height: 100%;
+        width: 30rem;
+    }
+
+    main{
+        width: 85rem;
+    }
+
+    .anime-panels{
+        margin-left: 5rem;
+    }
+
+    .anime-panels .top{
+        width: 70rem !important;
+    }
+
+    .anime-panels .anm-cont{
+        width: 71.3rem !important;
+    }
+}
 
 @media (max-width: 1200px) {
     .jj {
