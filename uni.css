@@ -1,12 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Nunito:wght@400;500;600;700&display=swap');
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --accent:       #e26b09;
+    --accent-hover: #f07a1a;
+    --bg:           #1a1714;
+    --bg-card:      #232020;
+    --bg-panel:     #2c2926;
+    --bg-desc:      #252220;
+    --sidebar-w:    21rem;
+    --radius:       8px;
+    --text:         #f5f1eb;
+    --text-muted:   rgba(245, 241, 235, 0.55);
+}
+
 body {
-    background-color: rgba(32, 29, 29, 0.6); 
+    background: var(--bg);
+    font-family: 'Nunito', system-ui, sans-serif;
+    color: var(--text);
     height: 100vh;
     overflow-y: hidden;
     display: flex;
@@ -14,191 +30,212 @@ body {
     overflow-x: hidden;
 }
 
+/* ── Episode sidebar ── */
 .episode {
     display: flex;
     flex-direction: column;
-    width: 21rem;
-    background-color: black;
     align-items: center;
-    color: white;
+    width: var(--sidebar-w);
+    flex-shrink: 0;
+    background: #111010;
+    color: var(--text);
     font-weight: 900;
+    overflow: hidden;
 }
 
-.episode p {
-    margin-top: 2.7rem;
-    font-size: xx-large;
+.episode p:first-child {
+    margin-top: 2.5rem;
+    font-family: 'Syne', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.85);
     margin-bottom: 1rem;
 }
 
 .epsbtn {
     display: flex;
-    margin-top: 1rem;
     flex-wrap: wrap;
-    width: calc((2.5rem + 0.5rem) * 5);
-    gap: 0.8rem;
-    overflow-y: auto; 
+    gap: 0.7rem;
+    padding: 0 1.5rem;
+    overflow-y: auto;
+    flex: 1;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.12) transparent;
+    align-content: flex-start;
+    justify-content: center;
 }
 
-.epsbtn button{
-    width: 2.5rem;
-    height: 2.5rem;
+.epsbtn button {
+    width: 2.8rem;
+    height: 2.8rem;
     cursor: pointer;
-    transition: .15s ease-in;
-    border-radius: 2px;
-    border-color: white;
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    background: var(--bg-panel);
+    color: var(--text);
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 0.8rem;
+    transition: background 0.15s, border-color 0.15s, transform 0.1s;
 }
 
-.epsbtn button:hover{
-    background-color: rgba(226, 107, 9, 0.952);
-    transition: .15s ease-out;
-    border: none;
+.epsbtn button:hover {
+    background: var(--accent);
+    border-color: transparent;
+    transform: scale(1.05);
 }
 
+.return {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.55);
+    padding: 1.25rem;
+    cursor: pointer;
+    transition: color 0.15s;
+    align-self: flex-start;
+    padding-left: 1.5rem;
+}
+
+.return:hover {
+    color: var(--accent-hover);
+}
+
+/* ── Main content panel ── */
 main {
-    width: 65rem;
-    overflow-y: hidden;
-    height: calc(100vh);
-    background-color: rgb(70, 69, 69);
-    right: 0rem;
-    position: fixed;
+    flex: 1;
+    min-width: 0;
+    height: 100vh;
+    overflow-y: auto;
+    background: var(--bg-panel);
+    display: flex;
     flex-direction: column;
-    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
 }
 
+/* ── Anime hero section ── */
 .scont {
-    flex-direction: row;
-    background-color: rgba(42, 42, 44, 0.6);
     display: flex;
-    height: 22rem;
-    gap: 4rem;
+    flex-direction: row;
+    align-items: flex-start;
+    background: linear-gradient(135deg, #201d1a 0%, #2a2420 100%);
+    padding: 2rem 2.5rem;
+    gap: 2.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    flex-shrink: 0;
 }
 
 .scont img {
-    position: relative;
-    top: 2rem;
-    left: 2rem;
-    width: 17rem;
-    height: 19rem;
-    border: none;
+    width: 13rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: var(--radius);
+    flex-shrink: 0;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.55);
 }
 
-.scont h1{
-    position: relative;
-    top: 2rem;
-    color: white;
-}
-
-.itm{
-    flex-direction: column;
-    width: 100%;
+.itm {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    text-align: center;
-    font-size: .9rem;
+    flex: 1;
+    min-width: 0;
+    gap: 1rem;
+    padding-top: 0.5rem;
+    min-height: 18rem;
+}
+
+.scont h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 800;
+    color: var(--text);
+    line-height: 1.2;
+}
+
+.inf {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.75rem;
+    color: var(--text-muted);
+    font-size: 0.875rem;
+    font-weight: 600;
 }
 
 .itm button {
-    margin-bottom: 1rem;
-    width: 40rem;
-    margin-left: 4rem;
-    height: 3rem;
-    border-radius: .5rem;
-    cursor: pointer;
-    background-color: rgba(226, 107, 9, 0.952); 
+    align-self: flex-start;
+    padding: 0.7rem 2.5rem;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--accent);
     border: none;
-    transition: .15s ease-in;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: background 0.15s, transform 0.1s;
 }
 
 .itm button:hover {
-    transition: .15s ease-out;
-    background-color: rgba(255, 165, 91, 0.952); 
+    background: var(--accent-hover);
+    transform: translateY(-2px);
 }
 
-.inf{
-    flex-direction: row;
-    color: white;
-    font-size: 1rem;
-    font-weight: 700;
+.itm button:active {
+    transform: translateY(0);
 }
 
-.return{
-    color: white;
-    bottom: 2rem;
-    position: fixed;
-    cursor: pointer;
-    transition: .15s ease-in;
-}
-
-.return:hover{
-    transition: .15s ease-out;
-    color: rgba(255, 165, 91, 0.952); 
-}
-
-.des{
+/* ── Description section ── */
+.jk {
+    flex: 1;
     display: flex;
-    height: 100%;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
+    padding: 2rem 2.5rem;
+    min-height: 0;
 }
 
-.des h1{
-    font-size: 1.6rem;
-    position: relative;
-    bottom: .6rem;
-    z-index: 10;
-    border: solid .1rem red;
-    width: 11rem;
-    height: 2rem;
-    background-color: red;
+.des {
+    margin-bottom: 1rem;
 }
 
-.cont-des{
-    background-color: rgb(59, 59, 57);
-    position: relative;
-    left: 2rem;
-    width: 60rem;
-    height: 36vh;
+.des h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text);
+    display: inline-block;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--accent);
+}
+
+.cont-des {
+    background: var(--bg-desc);
+    border-radius: var(--radius);
+    padding: 1.25rem 1.5rem;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.7;
     overflow-y: auto;
-    text-align: center;
-    color: white;
-    font-size: 1.2rem;
-    text-wrap: wrap;
-    padding-top: 1rem;
+    flex: 1;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
 }
 
-
-.epsbtn{
-  scrollbar-width: none;
-  scrollbar-color: white transparent;
-  margin-left: 2.5rem;
-}
-
-.epsbtn:hover {
-  scrollbar-width: thin;
-  scrollbar-color: white transparent;
-}
-
-
-@media screen and (max-width: 1400px) {
-    main {
-        width: calc(100% - 21rem);
-    }
-    .cont-des {
-        width: calc(100% - 4rem);
-        height: auto;
-        min-height: 30vh;
-    }
-    .itm button {
-        width: calc(100% - 8rem);
-        max-width: 40rem;
-    }
-    .scont {
-        gap: 2rem;
-    }
-
-    #Animetlt{
-        margin-bottom: 2rem;
-    }
+/* ── Responsive ── */
+@media screen and (max-width: 1200px) {
+    .scont { padding: 1.75rem 2rem; }
+    .jk { padding: 1.75rem 2rem; }
+    .scont img { width: 12rem; height: 16rem; }
+    .itm { min-height: 16rem; }
 }
 
 @media screen and (max-width: 1024px) {
@@ -208,137 +245,59 @@ main {
         min-height: 100vh;
         overflow-y: auto;
     }
+
     .episode {
         width: 100%;
-        padding: 1rem 0 2rem;
-    }
-    .epsbtn {
-        width: 100%;
-        justify-content: center;
-        padding: 0 1rem;
-        margin-left: 0;
-    }
-    main {
-        position: relative;
-        width: 100%;
         height: auto;
-        right: auto;
+        min-height: 0;
+        padding-bottom: 1rem;
     }
-    .scont {
-        flex-direction: column;
-        height: auto;
-        padding: 2rem 0;
-        gap: 2rem;
-    }
-    .scont img {
-        position: static;
-        margin: 0 auto;
-        top: 0;
-        left: 0;
-    }
-    .itm {
-        padding: 0 1rem;
-    }
-    .itm button {
-        width: 100%;
-        max-width: 100%;
-        margin-left: 0;
-    }
-    .cont-des {
-        width: calc(100% - 2rem);
-        left: 1rem;
-        margin-bottom: 2rem;
-    }
-    .return {
-        position: relative;
-        bottom: auto;
-        margin: 2rem 0;
-        text-align: center;
-        width: 100%;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .episode p {
+    .episode p:first-child {
         margin-top: 1.5rem;
-        font-size: x-large;
     }
-    .epsbtn {
-        gap: 0.6rem;
-    }
-    .scont {
-        padding: 1rem 0;
-    }
-    .scont img {
-        width: 14rem;
-        height: 16rem;
-    }
-    .des h1 {
-        font-size: 1.3rem;
-        width: 9rem;
-    }
-    .cont-des {
-        font-size: 1rem;
-    }
-    .itm button {
-        height: 2.8rem;
-    }
-}
 
-@media screen and (max-width: 480px) {
-    .episode p {
-        font-size: large;
-    }
-    .epsbtn button {
-        width: 2.2rem;
-        height: 2.2rem;
-    }
-    .scont img {
-        width: 12rem;
-        height: 14rem;
-    }
-    .scont h1 {
-        font-size: 1.3rem;
-        top: 1rem;
+    .epsbtn {
+        width: 100%;
+        max-height: 12rem;
         padding: 0 1rem;
-        text-align: center;
     }
-    .inf {
+
+    .return {
+        position: static;
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    main {
+        height: auto;
+        min-height: 60vh;
+    }
+
+    .scont {
         flex-direction: column;
         align-items: center;
-        gap: 0.5rem;
-        padding: 0 1rem;
+        text-align: center;
+        gap: 1.5rem;
     }
-    .des h1 {
-        font-size: 1.1rem;
-        width: 8rem;
-        height: 1.8rem;
-    }
-    .cont-des {
-        left: 1rem;
-        width: calc(100% - 2rem);
-        padding: 1rem;
-    }
-    .itm button {
-        height: 2.5rem;
-        font-size: 0.9rem;
-    }
+
+    .scont img { width: 12rem; height: 16rem; }
+    .itm { min-height: auto; align-items: center; }
+    .itm button { align-self: center; }
+    .inf { justify-content: center; }
 }
 
-@media screen and (max-width: 360px) {
-    .epsbtn {
-        gap: 0.4rem;
-    }
-    .epsbtn button {
-        width: 2rem;
-        height: 2rem;
-    }
-    .scont img {
-        width: 10rem;
-        height: 12rem;
-    }
-    .des h1 {
-        font-size: 1rem;
-        width: 7rem;
-    }
+@media screen and (max-width: 600px) {
+    .scont { padding: 1.25rem 1rem; }
+    .jk { padding: 1.25rem 1rem; }
+    .scont img { width: 10rem; height: 13.5rem; }
+    .scont h1 { font-size: 1.3rem; }
+    .itm button { padding: 0.6rem 2rem; }
+    .cont-des { font-size: 0.875rem; }
+}
+
+@media screen and (max-width: 430px) {
+    .epsbtn button { width: 2.4rem; height: 2.4rem; }
+    .scont img { width: 9rem; height: 12rem; }
 }

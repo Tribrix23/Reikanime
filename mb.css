@@ -1,315 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Nunito:wght@400;500;600;700&display=swap');
 
-* {
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+:root {
+    --accent:       #e26b09;
+    --accent-hover: #f07a1a;
+    --bg:           #1a1714;
+    --bg-card:      #232020;
+    --bg-panel:     #2c2926;
+    --header-h:     4rem;
+    --radius:       8px;
+    --text:         #f5f1eb;
+    --text-muted:   rgba(245, 241, 235, 0.5);
+}
+
 body {
-    background-color: rgb(32, 29, 29); 
-    height: 100vh;
-    overflow-y: hidden;
-    display: flex;
-    flex-direction: column;
+    background: var(--bg);
+    font-family: 'Nunito', system-ui, sans-serif;
+    color: var(--text);
+    min-height: 100vh;
     overflow-x: hidden;
 }
 
+/* ── Header ── */
 header {
-    background-color: rgba(226, 107, 9, 0.952); 
     display: flex;
     align-items: center;
-    padding: 0.5rem 1rem;
-    position: relative;
+    height: var(--header-h);
+    padding: 0 2rem;
+    background: var(--accent);
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.45);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 header img {
-    width: 10rem;
+    height: 2.4rem;
+    width: auto;
 }
 
-.top p {
-  font-size: 1rem;
-  color: black;
-  margin-right: 1rem;
-  cursor: pointer;
-  font-weight: 600;
-  transition: .15 ease-in;
+/* ── Main content ── */
+main {
+    padding: 2rem 2.5rem;
+    min-height: calc(100vh - var(--header-h));
 }
 
-.top p:hover {
-  transition: .15 ease-out;
-  scale: 1.3;
-}
-
-.top p:active {
-  transition: .15 ease-in-out;
-  scale: .6;
-}
-
-header input {
-    width: 15rem;
-    height: 2.3rem;
-    border: none;
-    border-radius: 1rem;
-    padding-left: 0.5rem;
-    font-weight: 600;
-    position: fixed;
-    right: 4rem;
-    top: 1rem;
-}
-
+/* ── Panel ── */
 .anime-panels {
     display: flex;
     flex-direction: column;
-    position: relative;
-    left: 3rem;
-    top: 2rem;
-    cursor: default;
 }
-
-.anime-panels .top {
-    color: white;
-    font-size: .5rem;
-    background-color: rgba(226, 107, 9, 0.952);
-    padding: .3rem;
-    padding-left: 1rem;
-    width: 79rem !important;
-}
-
 
 .top {
-    display: flex; 
-    flex-direction: row;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    border-top-left-radius: .5rem;
-    border-top-right-radius: .5rem;
+    background: var(--accent);
+    padding: 0.55rem 1.1rem;
+    border-radius: var(--radius) var(--radius) 0 0;
 }
 
-.top img {
-    width: 1.3rem;
+.top h1 {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.top p {
+    font-family: 'Syne', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 1px;
     cursor: pointer;
-    transition: .15s ease-in;
+    transition: transform 0.15s ease, opacity 0.15s;
+    text-transform: uppercase;
 }
 
-.top img:hover {
-    transition: .15s ease-out;
-    scale: 1.5;
-    z-index: 10;
-
+.top p:hover {
+    transform: scale(1.08);
+    opacity: 1;
 }
 
+.top p:active {
+    transform: scale(0.94);
+}
+
+/* ── Anime grid ── */
 .anm-cont {
     display: grid;
-    grid-template-columns: repeat(6, 1fr); 
-    gap: 1rem; 
-    overflow-y: auto;
-    overflow-x: hidden;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 1rem;
+    padding: 1.5rem;
+    background: var(--bg-panel);
+    border-radius: 0 0 var(--radius) var(--radius);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    border-top: none;
     max-height: 80vh;
-    background-color: rgb(70, 69, 69);
-    margin-bottom: 4rem;
-    width: 79rem !important;
-    padding: 1rem;
-    border-bottom-left-radius: .5rem;
-    border-bottom-right-radius: .5rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.14) transparent;
 }
 
-.pager {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    gap: .2rem;
-}
-
+/* ── Anime card ── */
 .anime {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: white;
-    font-weight: 500;
-    height: auto;
+    color: var(--text);
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 0.3rem;
+    border-radius: var(--radius);
+    transition: background 0.15s;
 }
 
 .anime img {
-    background-size: cover;
-    background-color: white;
-    border-radius: .6rem;
-    width: 10rem;
+    width: 9rem;
     height: 12rem;
-    color: black;
-    display: flex;
-    margin: 1rem;
-    margin-bottom: .5rem;
+    object-fit: cover;
+    border-radius: 6px;
+    background: var(--bg-card);
+    margin-bottom: 0.5rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.anime p {
+    line-height: 1.3;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: var(--text-muted);
 }
 
 .anime:hover {
-    background-color: rgba(99, 98, 98, 0.15);
-    cursor: pointer;
+    background: rgba(255, 255, 255, 0.05);
 }
 
+.anime:hover img {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.55);
+}
+
+/* ── Spinner ── */
 .anime.spinner-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px; 
-  border-radius: 8px;
-  margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14rem;
+    grid-column: 1 / -1;
 }
 
 .spinner {
-  width: 20px;
-  height: 20px;
-  border: 5px solid rgba(99, 98, 98, 0.15);
-  border-top-color: rgba(226, 107, 9, 0.952);
-  border-radius: 50%;
-  animation: spin 1s linear infinite;
+    width: 28px;
+    height: 28px;
+    border: 3px solid rgba(226, 107, 9, 0.2);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
 }
 
-@keyframes spin {
-  to { transform: rotate(360deg); }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Pager ── */
+.pager {
+    display: flex;
+    justify-content: center;
+    gap: 0.4rem;
+    margin-top: 1.5rem;
 }
 
-.anm-cont{
-  scrollbar-width: none;
-  scrollbar-color: white transparent;
-}
-
-.anm-cont:hover {
-  scrollbar-width: thin;
-  scrollbar-color: white transparent;
-}
-
-@media (max-width: 1024px) {
-    .anime-panels .top,
-    .anm-cont {
-        width: 45rem;
-    }
-    .anm-cont {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    header input {
-        width: 12rem;
-        right: 2rem;
-    }
-}
-
+/* ── Responsive ── */
 @media (max-width: 768px) {
-    .anime-panels {
-        left: 1rem;
-    }
-    .anime-panels .top,
-    .anm-cont {
-        width: calc(100vw - 2rem);
-    }
-    .anm-cont {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    header {
-        flex-direction: column;
-        padding-bottom: 1rem;
-    }
-    header input {
-        position: static;
-        margin-top: 0.5rem;
-        width: 90%;
-    }
-    .top p {
-        font-size: 0.8rem;
-    }
+    main { padding: 1.5rem 1rem; }
+    header { padding: 0 1rem; }
+    header img { height: 2rem; }
+    .anm-cont { grid-template-columns: repeat(auto-fill, minmax(8.5rem, 1fr)); }
+    .anime img { width: 8rem; height: 10.5rem; }
 }
 
-@media (max-width: 452px) {
-    .anm-cont {
-        grid-template-columns: 1fr;
-    }
-    .anime img {
-        width: 8rem;
-        height: 10rem;
-    }
-
-    header{
-      width: 29rem;
-      overflow-x: hidden;
-    }
-
-    body{
-      overflow-x: hidden;
-    }
-
-    main{
-      overflow-x: hidden;
-    }
-
-    header img {
-        width: 7rem;
-    } 
-    .top img {  
-        width: 1rem;
-    }
-
-    .anm-cont {
-      width: 25rem !important;
-      overflow-x: hidden;
-    }
-
-    .anime-panels .top{
-      width: 25rem !important;
-    }
-}
-
-@media (max-width: 375px) {
-    .anm-cont {
-        grid-template-columns: 1fr;
-    }
-    .anime img {
-        width: 8rem;
-        height: 10rem;
-    }
-
-    body{
-      overflow-x: hidden;
-    }
-    header img {
-        width: 7rem;
-    }
-    .top img {  
-        width: 1rem;
-    }
-
-    .anm-cont {
-      width: 21.3rem !important;
-      overflow-x: hidden;
-    }
-
-    .anime-panels .top{
-      width: 21.32rem !important;
-    }
-}
-
-@media (max-width: 320px) {
-    .anm-cont {
-        grid-template-columns: 1fr;
-    }
-    .anime img {
-        width: 8rem;
-        height: 10rem;
-    }
-
-    body{
-      overflow-x: hidden;
-    }
-    header img {
-        width: 7rem;
-    }
-    .top img {
-        width: 1rem;
-    }
-
-    .anm-cont {
-      width: 18rem !important;
-      overflow-x: hidden;
-    }
-
-    .anime-panels .top{
-      width: 18rem !important;
-    }
+@media (max-width: 480px) {
+    main { padding: 1rem 0.75rem; }
+    .anm-cont { grid-template-columns: repeat(auto-fill, minmax(7.5rem, 1fr)); gap: 0.75rem; padding: 1rem; }
+    .anime img { width: 7rem; height: 9.5rem; }
 }
